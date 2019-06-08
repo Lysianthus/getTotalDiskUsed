@@ -10,7 +10,7 @@ function getTotalDiskUsed (n) {
 	var totalDiskUsed = 0;
 
 	for(var i = 0; i < n; i++) {
-		var individualDisk = parseInt(document.getElementById('listaccts').getElementsByTagName('tr')[i+1].getElementsByClassName('number')[1].innerHTML);
+		var individualDisk = parseInt(document.getElementById('listaccts').getElementsByTagName('tr')[i+1].getElementsByClassName('number')[1].getElementsByClassName('quota_insensitive')[0].innerHTML);
 		totalDiskUsed += individualDisk;
 	}
 
