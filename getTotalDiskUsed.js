@@ -1,7 +1,7 @@
 /*!
  * This calculates the total disk used by all cPanel accounts under a WHM account.
  * To use, simply run on the console on the "List Accounts" page while showing the complete list of accounts (filter "All").
- * Tested on WHM v78.0.24.
+ * Tested on WHM v80.0.13
  * 
  * @param  {int} n number of accounts
  */
